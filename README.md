@@ -1,8 +1,14 @@
 # fortran-in-docker
-NBU project
+NBU project for VK
 
-## building the image
+## Include description from GH projects
+
+### building the image
+```
 docker build -t fortran:latest .
+```
 
-## running the image
+### running the image
+```
 docker run fortran
+```
