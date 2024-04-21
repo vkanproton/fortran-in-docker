@@ -1,8 +1,15 @@
-# fortran-in-docker
-NBU project
+# Description
+NBU project for VK (F-107833). Docker container for running Fortran programs 
 
-## building the image
+## Prerequisites
+Docker must be installed and running on your machine.
+
+## Building the image
+```
 docker build -t fortran:latest .
+```
 
-## running the image
+## Running the image
+```
 docker run fortran
+```

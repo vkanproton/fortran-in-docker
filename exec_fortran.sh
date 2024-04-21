@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "=== Executting gfortran!"
+echo "===== Executting gfortran! =====\n"
 ./Fortran
-echo "=== End of gfortran execution!"
 
 echo "\nResults:"
-cat program_results.txt
+rm -f Fortran Makefile exec_fortran.sh *.f90 *.o
+cat $(ls -t | head -n1)
 echo
+echo "===== End of gfortran execution! ====="
